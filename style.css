@@ -75,3 +75,26 @@ body {
   font-size: 20px;
   font-weight: 500;
 }
+
+.body-2 {
+  height: 1000px;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.child-4 {
+  height: px;
+  width: 400px;
+  background-color: aqua;
+  border: 2px solid red;
+}
+.child-4 dd {
+  font-size: 10px;
+  line-height: 1.6;
+}
+.child-5 {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid red;
+}
