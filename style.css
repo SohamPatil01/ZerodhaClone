@@ -21,7 +21,7 @@
 }
 .options {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   color: grey;
 }
 .options a {
@@ -34,7 +34,7 @@ body {
 }
 
 .body-1 {
-  height: 700px;
+  height: 800px;
   padding-top: 15vh;
   display: flex;
   flex-direction: column;
@@ -75,21 +75,27 @@ body {
   font-size: 20px;
   font-weight: 500;
 }
-
+.child-3 button:hover {
+  background-color: cornflowerblue;
+}
 .body-2 {
-  height: 1000px;
-  padding: 0 10vw;
+  height: 550px;
+  padding: 0 12vw;
+  /* border: 2px solid blue; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .child-4 {
-  height: px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   /* background-color: aqua;
   border: 2px solid red; */
 }
+.child-4 heading {
+  width: 700px;
+}
 .child-4 dd {
-  font-size: 20pxpx;
+  font-size: 15.5px;
   line-height: 1.6;
   padding-top: 10px;
 }
@@ -101,10 +107,29 @@ h5,
 h6 {
   font-weight: 500;
 }
-
+.child-5 {
+  margin-left: 30px;
+}
 .child-5 img {
-  height: 500px;
-  width: 470px;
+  max-width: 100%;
+  width: auto;
   /* background-color: aqua;
   border: 2px solid red; */
+}
+.child-5 .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.links a {
+  text-decoration: none;
+  color: #387ed1;
+  padding-top: 30px;
+}
+.media {
+  height: 100px;
+  width: auto;
+  text-align: center;
+  padding-left: 20px;
 }
